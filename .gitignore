@@ -1,1 +1,54 @@
 /.idea/
+
+# ---------------------------
+# Clojure / Leiningen / deps.edn
+# ---------------------------
+
+# Diretórios de build
+/target/
+/classes/
+/checkouts/
+/lib/
+/resources/public/js/compiled/
+/out/
+/tmp/
+
+# Arquivos de REPL e nREPL
+/.lein-repl-history
+/.nrepl-port
+/.nrepl-history
+/.cljs_node_repl
+
+# Configurações locais e caches
+/.cpcache/
+/.lein-failures
+/.cljs_cache
+
+# Configurações específicas de dev
+profiles.clj
+
+# ---------------------------
+# IntelliJ IDEA / Cursive
+# ---------------------------
+.idea/
+*.iml
+
+# ---------------------------
+# VS Code
+# ---------------------------
+.vscode/
+
+# ---------------------------
+# macOS
+# ---------------------------
+.DS_Store
+
+# ---------------------------
+# Linux
+# ---------------------------
+*~
+
+# ---------------------------
+# Windows
+# ---------------------------
+Thumbs.db
