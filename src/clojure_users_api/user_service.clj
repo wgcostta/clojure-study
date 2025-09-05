@@ -16,3 +16,6 @@
 
 (defn new-user-service []
   (map->UserService {}))
+
+
+System.out.println(teste)
